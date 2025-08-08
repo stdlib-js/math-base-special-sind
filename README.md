@@ -46,7 +46,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sind from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sind@esm/index.mjs';
+import sind from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sind@v0.0.0-esm/index.mjs';
 ```
 
 #### sind( x )
@@ -85,7 +85,7 @@ v = sind( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import sind from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sind@esm/index.mjs';
+import sind from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sind@v0.0.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
