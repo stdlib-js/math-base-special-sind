@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-sind",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compute the sine of an angle measured in degrees.",
   "license": "Apache-2.0",
   "author": {
@@ -42,14 +42,14 @@
   "dependencies": {
     "@stdlib/math-base-assert-is-infinite": "^0.2.2",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
-    "@stdlib/math-base-napi-unary": "^0.2.3",
+    "@stdlib/math-base-napi-unary": "^0.2.4",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/math-base-special-deg2rad": "^0.2.2",
     "@stdlib/math-base-special-fmod": "^0.1.0",
     "@stdlib/math-base-special-kernel-cos": "^0.2.3",
     "@stdlib/math-base-special-kernel-sin": "^0.2.3",
     "@stdlib/math-base-special-signum": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-negative-zero": "^0.2.2",
@@ -94,85 +94,6 @@
     "trig",
     "trigonometry"
   ],
-  "__stdlib__": {
-    "scaffold": {
-      "$schema": "math/base@v1.0",
-      "base_alias": "sind",
-      "alias": "sind",
-      "pkg_desc": "compute the sine of an angle measured in degrees",
-      "desc": "computes the sine of an angle measured in degrees",
-      "short_desc": "sine",
-      "parameters": [
-        {
-          "name": "x",
-          "desc": "input value (in degrees)",
-          "type": {
-            "javascript": "number",
-            "jsdoc": "number",
-            "c": "double",
-            "dtype": "float64"
-          },
-          "domain": [
-            {
-              "min": "-infinity",
-              "max": "infinity"
-            }
-          ],
-          "rand": {
-            "prng": "random/base/uniform",
-            "parameters": [
-              -360,
-              360
-            ]
-          },
-          "example_values": [
-            0,
-            30,
-            45,
-            60,
-            90,
-            120,
-            150,
-            180,
-            270,
-            360,
-            -30,
-            -45,
-            -60,
-            -90,
-            -180,
-            -270,
-            -360,
-            15,
-            -15,
-            75
-          ]
-        }
-      ],
-      "output_policy": "real_floating_point_and_generic",
-      "returns": {
-        "desc": "sine",
-        "type": {
-          "javascript": "number",
-          "jsdoc": "number",
-          "c": "double",
-          "dtype": "float64"
-        }
-      },
-      "keywords": [
-        "degree",
-        "sin",
-        "sine",
-        "sind",
-        "cos",
-        "cosine",
-        "trig"
-      ],
-      "extra_keywords": [
-        "math.sin"
-      ]
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
